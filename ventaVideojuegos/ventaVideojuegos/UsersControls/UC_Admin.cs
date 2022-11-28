@@ -359,6 +359,8 @@ namespace ventaVideojuegos.UsersControls
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
+            
+
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 string idProdEditar = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
@@ -368,7 +370,8 @@ namespace ventaVideojuegos.UsersControls
                 string categoriaProdEditar = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
                 string consolaProdEditar = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
                 string conexionProdEditar = dataGridView1.SelectedRows[0].Cells[6].Value.ToString();
-                string modoJuegoProdEditar = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+                string modoJuegoProdEditar = dataGridView1.SelectedRows[0].Cells[7].Value.ToString(); 
+                
 
                 Producto prodEditar = new Producto()
                 {

@@ -43,7 +43,7 @@
             // txtContrasenaLogin
             // 
             this.txtContrasenaLogin.Location = new System.Drawing.Point(137, 174);
-            this.txtContrasenaLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtContrasenaLogin.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasenaLogin.Name = "txtContrasenaLogin";
             this.txtContrasenaLogin.Size = new System.Drawing.Size(163, 22);
             this.txtContrasenaLogin.TabIndex = 9;
@@ -52,7 +52,7 @@
             // txtUsuarioLogin
             // 
             this.txtUsuarioLogin.Location = new System.Drawing.Point(137, 114);
-            this.txtUsuarioLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuarioLogin.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuarioLogin.Name = "txtUsuarioLogin";
             this.txtUsuarioLogin.Size = new System.Drawing.Size(163, 22);
             this.txtUsuarioLogin.TabIndex = 8;
@@ -62,7 +62,7 @@
             // 
             this.bttnAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnAcceder.Location = new System.Drawing.Point(111, 278);
-            this.bttnAcceder.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttnAcceder.Margin = new System.Windows.Forms.Padding(4);
             this.bttnAcceder.Name = "bttnAcceder";
             this.bttnAcceder.Size = new System.Drawing.Size(205, 41);
             this.bttnAcceder.TabIndex = 6;
@@ -83,7 +83,7 @@
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.Teal;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightCyan;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(403, 337);
             this.guna2GradientPanel1.TabIndex = 12;
@@ -94,7 +94,7 @@
             this.errLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errLogin.ForeColor = System.Drawing.Color.Red;
             this.errLogin.Location = new System.Drawing.Point(64, 218);
-            this.errLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.errLogin.Margin = new System.Windows.Forms.Padding(4);
             this.errLogin.Name = "errLogin";
             this.errLogin.Size = new System.Drawing.Size(162, 18);
             this.errLogin.TabIndex = 10;
@@ -105,7 +105,7 @@
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(33, 174);
-            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(86, 22);
             this.guna2HtmlLabel4.TabIndex = 3;
@@ -116,7 +116,7 @@
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(64, 114);
-            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(58, 22);
             this.guna2HtmlLabel3.TabIndex = 2;
@@ -124,12 +124,13 @@
             // 
             // guna2HtmlLabel2
             // 
+            this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(145, 82);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(137, 84);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(130, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(189, 22);
             this.guna2HtmlLabel2.TabIndex = 1;
             this.guna2HtmlLabel2.Text = "Ingrese sus datos";
             // 
@@ -138,7 +139,7 @@
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(145, 26);
-            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2HtmlLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(130, 31);
             this.guna2HtmlLabel1.TabIndex = 0;
@@ -150,7 +151,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(401, 334);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

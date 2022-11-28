@@ -311,5 +311,10 @@ namespace ventaVideojuegos
         {
 
         }
+
+        private void txtConexion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

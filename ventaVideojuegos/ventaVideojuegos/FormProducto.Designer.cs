@@ -92,6 +92,7 @@
             this.txtConexion.Name = "txtConexion";
             this.txtConexion.Size = new System.Drawing.Size(132, 22);
             this.txtConexion.TabIndex = 15;
+            this.txtConexion.TextChanged += new System.EventHandler(this.txtConexion_TextChanged);
             // 
             // txtModoJuego
             // 
